@@ -1,6 +1,0 @@
-alto = int(input("Ingrese el alto del rectámgulo: "))
-ancho = int(input("Ingrese el ancho del rectángulo: "))
-area = (alto * ancho)
-perimetro = ((alto * ancho) * 2)
-print(f"El área del rectángulo es: {area}")
-print(f"El pareímetro del rectángulos es: {perimetro}")
