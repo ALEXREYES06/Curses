@@ -21,14 +21,14 @@ while continuar == True:
         print ("F")
     else:
         print ("Valor fuera de rango ingresa solo de 0 a 10")
-        
-    continuar = str(input("¿Desea continuar? S/N: "))
-    if continuar == "S":
-            continuar = True
-    elif continuar == "N":
-            continuar = False
 else:
     print("Fin del programa")
+
+continuar = str(input("¿Desea continuar? S/N: "))
+if continuar == "S":
+    continuar = True
+elif continuar == "N":
+    continuar = False
 
 
 
