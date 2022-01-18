@@ -4,8 +4,13 @@ class Persona:
         self.apellido = apellido
         self.edad = edad
 
+    def mostrar_detalle (self):
+        print(f'Persona: {self.nombre} {self.apellido} {self.edad}')
+
 persona1 = Persona('Juan', 'Perez', 28)
-print(f'Objeto Persona 1: {persona1.nombre} {persona1.apellido} {persona1.edad}')
+persona1.mostrar_detalle()
+persona1.telefono = '4772849517'
+#Persona.mostrar_detalle(persona1)
 
 persona2 = Persona('Karla', 'Gomez', 30)
-print(f'Objeto Persona 2: {persona2.nombre} {persona2.apellido} {persona2.edad}')
+persona2.mostrar_detalle()

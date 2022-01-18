@@ -7,5 +7,10 @@ class Persona:
 persona1 = Persona('Juan', 'Perez', 28)
 print(f'Objeto Persona 1: {persona1.nombre} {persona1.apellido} {persona1.edad}')
 
+persona1.nombre = 'Juan Carlos'
+persona1.apelllido = 'Juarez'
+persona1.edad = 25
+print(f'Objeto Persona 1: {persona1.nombre} {persona1.apellido} {persona1.edad}')
+
 persona2 = Persona('Karla', 'Gomez', 30)
 print(f'Objeto Persona 2: {persona2.nombre} {persona2.apellido} {persona2.edad}')
