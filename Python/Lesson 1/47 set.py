@@ -28,7 +28,7 @@ print(planetas)
 planetas.discard('Jupiter')
 print(planetas)
 
-#limpiar todo el ser
+#limpiar todo el set
 planetas.clear()
 print(planetas)
 

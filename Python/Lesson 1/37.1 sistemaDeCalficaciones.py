@@ -8,7 +8,7 @@ d = calificacion == 6
 f = calificacion >= 0 and calificacion < 6
 
 
-while continuar == True:
+while continuar == "S":
     if a:
         print ("A")
     elif b:
@@ -21,8 +21,9 @@ while continuar == True:
         print ("F")
     else:
         print ("Valor fuera de rango ingresa solo de 0 a 10")
-else:
-    print("Fin del programa")
+
+
+
 
 continuar = str(input("¿Desea continuar? S/N: "))
 if continuar == "S":
